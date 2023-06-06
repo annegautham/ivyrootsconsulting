@@ -323,7 +323,7 @@ textarea {
           font-size: 1.7rem; } }
 
 .contact {
-  background: linear-gradient(to right, rgba(255, 224, 117, 0.8), rgba(102, 224, 117, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(102, 224, 117, 0.8), rgba(102, 224, 117, 0.8)), url(../../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center; }
   .contact__form-container {
@@ -522,7 +522,7 @@ textarea {
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
-    background: #ffffff; }
+    background: #66e075; }
     @media only screen and (max-width: 56.25em) {
       .header__logo-img-cont {
         width: 4.5rem;
