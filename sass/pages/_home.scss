@@ -1,12 +1,8 @@
 .home-hero {
   color: #fff;
-  background: linear-gradient(
-      to right,
-      rgba($themeClrPrimary, 0.8),
-      rgba($themeClrPrimary, 0.8)
-    ),
-    url(../../assets/svg/common-bg.svg);
+  background-image: url(../../assets/png/background.png);
   background-position: center;
+  background-size: no-repeat;
 
   height: 100vh;
 
