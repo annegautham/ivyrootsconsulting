@@ -138,7 +138,7 @@ textarea {
 
   .btn {
     position: relative;
-    display: inline-block;
+    display: flex;
     cursor: pointer;
     background: #fff;
     color: #333;
