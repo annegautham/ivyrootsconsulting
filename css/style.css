@@ -300,7 +300,8 @@ textarea {
 .about {
   background: #fafafa; }
   .about__content {
-    display: grid;
+    display: flex;
+    justify-content: center;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10rem; }
     @media only screen and (max-width: 56.25em) {
