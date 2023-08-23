@@ -177,7 +177,7 @@
           <div class="about__content-skills">
             <h3 class="about__content-title">Our Services</h3>
             <div class="skills">
-              <div class="btn btn--med btn--theme dynamicBgClr" onclick="myFunction()">Click me to toggle the popup!
+              <div class="btn btn--med btn--theme dynamicBgClr" onclick="myFunction1()">Click me to toggle the popup!
                 <span class="popuptext" id="myPopup1">A Simple Popup!</span>
               </div>
             </div>
@@ -185,7 +185,7 @@
             <br>
 
             <div class="skills">
-              <div class="btn btn--med btn--theme dynamicBgClr" onclick="myFunction()">Click me to toggle the popup!
+              <div class="btn btn--med btn--theme dynamicBgClr" onclick="myFunction2()">Click me to toggle the popup!
                 <span class="popuptext" id="myPopup2">A Simple Popup!</span>
               </div>
             </div>
@@ -193,20 +193,24 @@
             <br>
             
             <div class="skills">
-              <div class="btn btn--med btn--theme dynamicBgClr" onclick="myFunction()">Click me to toggle the popup!
+              <div class="btn btn--med btn--theme dynamicBgClr" onclick="myFunction3()">Click me to toggle the popup!
                 <span class="popuptext" id="myPopup3">A Simple Popup!</span>
               </div>
             </div>
 
             <script>
               // When the user clicks on div, open the popup
-              function myFunction() {
-                var popup1 = document.getElementById("myPopup1");
-                var popup2 = document.getElementById("myPopup2");
-                var popup3 = document.getElementById("myPopup3");
-                popup1.classList.toggle("show");
-                popup2.classList.toggle("show");
-                popup3.classList.toggle("show");
+              function myFunction1() {
+                var popup = document.getElementById("myPopup1");
+                popup.classList.toggle("show");
+              }
+              function myFunction2() {
+                var popup = document.getElementById("myPopup2");
+                popup.classList.toggle("show");
+              }
+              function myFunction3() {
+                var popup = document.getElementById("myPopup3");
+                popup.classList.toggle("show");
               }
               </script>
 
