@@ -179,6 +179,7 @@
             <div class="skills">
                <div class="btn btn--med btn--theme dynamicBgClr"
               >College Consultation</div>
+              <span class="popuptext" id="myPopup">A simple Popup</span>
             </div>
 
             <br>
@@ -195,6 +196,13 @@
               >SAT Prep</div> 
             </div>
 
+            <script>
+              // When the user clicks on div, open the popup
+              function myFunction() {
+                var popup = document.getElementById("myPopup");
+                popup.classList.toggle("show");
+              }
+              </script>
 
               <!-- <div class="skills__skill">College Consultation</div> -->
 <!--             <div class="skills">
