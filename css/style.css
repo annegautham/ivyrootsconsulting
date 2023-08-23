@@ -176,8 +176,9 @@ textarea {
     background-color: #555;
     color: #fff;
     text-align: center;
+    text-transform: none;
     border-radius: 6px;
-    padding: 8px 0;
+    padding: 8px 8px;
     position: absolute;
     z-index: 1;
     bottom: 125%;
