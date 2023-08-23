@@ -172,7 +172,7 @@ textarea {
   /* The actual popup */
   .btn .popuptext {
     visibility: hidden;
-    width: 150%;
+    width: 500px;
     background-color: #555;
     color: #fff;
     text-align: center;
@@ -182,7 +182,7 @@ textarea {
     position: absolute;
     z-index: 1;
     bottom: 125%;
-    left: 50%;
+    left: 25%;
     margin-left: -80px;
   }
   
@@ -191,7 +191,7 @@ textarea {
     content: "";
     position: absolute;
     top: 100%;
-    left: 25%;
+    left: 50%;
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
