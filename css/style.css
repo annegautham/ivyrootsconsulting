@@ -138,7 +138,7 @@ textarea {
 
   .btn {
     position: relative;
-    display: flex;
+    display: inline-block;
     cursor: pointer;
     background: #fff;
     color: #333;
@@ -172,7 +172,7 @@ textarea {
   /* The actual popup */
   .btn .popuptext {
     visibility: hidden;
-    flex-basis: 5000px;
+    width: 500px;
     background-color: #555;
     color: #fff;
     text-align: center;
